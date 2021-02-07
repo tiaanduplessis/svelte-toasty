@@ -55,24 +55,6 @@
 		animation-fill-mode: forwards;
 	}
 
-	:global(.svelte-toasty-toast:before),
-	:global(.svelte-toasty-toast:after) {
-		content: "";
-		position: absolute;
-		z-index: -1;
-		top: 50%;
-		bottom: 0;
-		left: 1rem;
-		right: 1rem;
-		border-radius: 100px / 10px;
-	}
-
-	:global(.svelte-toasty-toast:after){
-		right: 10px;
-		left: auto;
-		transform: skew(8deg) rotate(3deg);
-	}
-
 	@keyframes shrink {
 		0% {
 			width: 100%;
