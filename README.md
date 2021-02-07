@@ -10,10 +10,16 @@
 
 ## Table of Contents
 
+- [Demo](#demo)
 - [Install](#install)
 - [Usage](#usage)
 - [Contribute](#contribute)
 - [License](#License)
+
+
+## About
+
+Check out the demo [here](https://svelte-toasty.netlify.app/) ([source](./src/App.svelte))
 
 ## Install
 
